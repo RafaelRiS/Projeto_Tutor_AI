@@ -1,0 +1,21 @@
+<resources>
+    <color name="black">#000000</color>
+    <color name="color_primary">#6200EE</color>
+    <color name="color_primary_variant">#3700B3</color>
+    <color name="color_secondary">#03DAC5</color>
+    <color name="color_secondary_variant">#018786</color>
+    <color name="color_white">#FFFFFF</color>
+
+    <!-- Cores mencionadas no erro -->
+    <color name="primaryColor">#6200EE</color>
+    <color name="primaryColorVariant">#3700B3</color>
+    <color name="onPrimaryColor">#FFFFFF</color>
+    <color name="secondaryColor">#03DAC5</color>
+    <color name="secondaryColorVariant">#018786</color>
+    <color name="backgroundColor">#FFFFFF</color>
+    <color name="yellow">#FFFF00</color> <!-- Amarelo -->
+    <color name="yellow_dark">#FFD700</color> <!-- Amarelo mais escuro -->
+    <color name="black_dark">#333333</color> <!-- Preto mais escuro -->
+
+
+</resources>

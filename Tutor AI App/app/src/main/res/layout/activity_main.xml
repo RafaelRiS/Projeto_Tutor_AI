@@ -1,0 +1,149 @@
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/responseLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="540dp"
+                android:visibility="gone"
+                android:padding="1dp"
+                android:orientation="vertical"
+                android:layout_marginTop="100dp">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/responseTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rounded_background"
+                        android:textColor="@android:color/black"
+                        android:padding="16dp"
+                        android:visibility="gone" />
+                </ScrollView>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/toggleViewButton"
+                android:layout_width="75dp"
+                android:layout_height="37dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="57dp"
+                android:layout_marginStart="35dp"
+                android:text="Ver Site"
+                android:textColor="@android:color/black"
+                android:textSize="8sp"
+                android:backgroundTint="@color/yellow_dark"/>
+
+            <Button
+                android:id="@+id/speakButton"
+                android:layout_width="45dp"
+                android:layout_height="37dp"
+                android:layout_marginTop="57dp"
+                android:text="📢"
+                android:layout_marginStart="120dp"
+                android:visibility="gone"
+                android:backgroundTint="@color/yellow_dark"/> <!-- Começa escondido -->
+
+            <FrameLayout
+                android:id="@+id/chatFragmentContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"/>
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="16dp"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/rounded_edittext_background">
+
+                    <Button
+                        android:id="@+id/voiceButton"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rounded_response_background"
+                        android:text="🎤" />
+
+                    <EditText
+                        android:id="@+id/questionEditText"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="Digite sua pergunta"
+                        android:padding="16dp"
+                        android:textSize="18sp"
+                        android:background="@android:color/transparent" />
+
+                    <Button
+                        android:id="@+id/sendButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Enviar"
+                        android:textColor="@android:color/white"
+                        android:background="@drawable/rounded_response_background" />
+
+                    <Button
+                        android:id="@+id/stopButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Parar"
+                        android:textColor="@android:color/white"
+                        android:background="@drawable/rounded_response_background"
+                        android:visibility="gone"/> <!-- Começa invisível -->
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="780dp"
+                android:visibility="gone"
+                android:indeterminate="true"
+                android:indeterminateTint="#FFD700" />
+
+            <TextView
+                android:id="@+id/loadingMessageTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end" />
+</androidx.drawerlayout.widget.DrawerLayout>
