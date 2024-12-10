@@ -73,7 +73,6 @@ Passo 2: Iniciar o Servidor Flask
 No diretório do projeto, execute:
 
 ```bash
-Copiar código
 python app.py
 ```
 O servidor Flask será iniciado e estará disponível em http://localhost:5000.
@@ -84,7 +83,6 @@ Agora você pode interagir com a API usando requisições POST para o endpoint /
 A requisição deve ser enviada com o seguinte corpo JSON:
 
 ```json
-Copiar código
 {
   "pergunta": "Sua pergunta aqui"
 }
@@ -97,7 +95,6 @@ Você pode testar a API diretamente usando ferramentas como o Postman ou cURL pa
 ## Exemplo de requisição com cURL:
 
 ```bash
-Copiar código
 curl -X POST http://localhost:5000/responder -H "Content-Type: application/json" -d '{"pergunta": "Qual é a capital da França?"}'
 ```
 
