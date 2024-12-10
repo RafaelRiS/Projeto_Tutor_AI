@@ -35,3 +35,82 @@ python3 -m venv venv
 source venv/bin/activate  # Para sistemas Unix
 venv\Scripts\activate     # Para sistemas Windows
 pip install -r requirements.txt
+```
+
+# **Tutor AI App**
+
+**Tutor AI App** é uma aplicação web que utiliza a arquitetura de um modelo de IA para responder a perguntas enviadas via API. A aplicação é construída com **Flask** para fornecer uma interface de API e **SQLAlchemy** para interação com um banco de dados SQLite. O sistema responde a perguntas com base nos dados armazenados no banco de dados e interage com um modelo de IA para gerar respostas.
+
+## **Estrutura do Projeto**
+
+O projeto é composto pelas seguintes partes:
+
+1. **API Flask (`app.py`)**: Um servidor Flask que expõe a API de perguntas e respostas.
+2. **Modelo de Pergunta e Resposta (`PerguntaResposta` no `app.py`)**: Classe que representa perguntas e respostas armazenadas no banco de dados.
+3. **Banco de Dados SQLite**: Utilizado para armazenar perguntas e respostas de forma persistente.
+4. **Integração com o Modelo de IA (`gerar_respostas.py`)**: Envia dados para o modelo de IA para gerar respostas baseadas nas perguntas.
+
+2. Configuração do Banco de Dados
+O projeto utiliza o SQLite como banco de dados para armazenar perguntas e respostas. O banco de dados e a tabela são criados automaticamente ao iniciar o aplicativo Flask.
+
+Arquivos e Funcionalidades
+1. app.py
+Este arquivo contém a implementação principal do servidor Flask. Ele expõe uma API para interagir com o sistema e armazenar as perguntas e respostas no banco de dados SQLite.
+
+Funcionalidades:
+Configuração do Banco de Dados: A aplicação utiliza o SQLite para armazenar perguntas e respostas.
+Rota /responder: Uma rota POST onde o usuário pode enviar uma pergunta. A aplicação então utiliza a função buscar_resposta para processar a pergunta e retornar uma resposta.
+2. gerar_respostas.py
+Este arquivo contém a função enviar_para_modelo, que envia as perguntas para o modelo de IA e processa a resposta.
+
+A função enviar_para_modelo envia a pergunta para o modelo de IA com o contexto dos dados armazenados, e retorna a resposta gerada pelo modelo.
+
+Como Executar o Projeto
+Passo 1: Inicializar o Banco de Dados
+Ao rodar o servidor Flask pela primeira vez, o banco de dados SQLite será automaticamente criado, e as tabelas necessárias serão geradas.
+
+Passo 2: Iniciar o Servidor Flask
+No diretório do projeto, execute:
+
+bash
+Copiar código
+python app.py
+O servidor Flask será iniciado e estará disponível em http://localhost:5000.
+
+Passo 3: Enviar Perguntas para a API
+Agora você pode interagir com a API usando requisições POST para o endpoint /responder.
+
+A requisição deve ser enviada com o seguinte corpo JSON:
+
+```json
+Copiar código
+{
+  "pergunta": "Sua pergunta aqui"
+}
+A resposta será uma JSON contendo a resposta gerada pelo sistema.
+```
+
+Passo 4: Testar Localmente
+Você pode testar a API diretamente usando ferramentas como o Postman ou cURL para enviar requisições POST.
+
+Exemplo de requisição com cURL:
+
+```bash
+Copiar código
+curl -X POST http://localhost:5000/responder -H "Content-Type: application/json" -d '{"pergunta": "Qual é a capital da França?"}'
+```
+
+Estrutura do Banco de Dados
+A aplicação utiliza uma tabela no banco de dados SQLite para armazenar perguntas e respostas. A tabela é definida pela classe PerguntaResposta no código.
+
+A tabela contém os seguintes campos:
+
+id: Chave primária.
+pergunta: A pergunta feita pelo usuário.
+resposta: A resposta gerada pelo sistema.
+
+Licença
+Este projeto está licenciado sob a Licença MIT.
+
+Contribuições
+Sinta-se à vontade para contribuir com o projeto. Para isso, basta fazer um fork, criar uma branch com suas modificações e abrir um pull request.
