@@ -50,14 +50,14 @@ O projeto é composto pelas seguintes partes:
 3. **Banco de Dados SQLite**: Utilizado para armazenar perguntas e respostas de forma persistente.
 4. **Integração com o Modelo de IA (`gerar_respostas.py`)**: Envia dados para o modelo de IA para gerar respostas baseadas nas perguntas.
 
-2. Configuração do Banco de Dados
+2. **Configuração do Banco de Dados**
 O projeto utiliza o SQLite como banco de dados para armazenar perguntas e respostas. O banco de dados e a tabela são criados automaticamente ao iniciar o aplicativo Flask.
 
-Arquivos e Funcionalidades
+## Arquivos e Funcionalidades
 1. app.py
 Este arquivo contém a implementação principal do servidor Flask. Ele expõe uma API para interagir com o sistema e armazenar as perguntas e respostas no banco de dados SQLite.
 
-Funcionalidades:
+## Funcionalidades:
 Configuração do Banco de Dados: A aplicação utiliza o SQLite para armazenar perguntas e respostas.
 Rota /responder: Uma rota POST onde o usuário pode enviar uma pergunta. A aplicação então utiliza a função buscar_resposta para processar a pergunta e retornar uma resposta.
 2. gerar_respostas.py
@@ -65,16 +65,17 @@ Este arquivo contém a função enviar_para_modelo, que envia as perguntas para 
 
 A função enviar_para_modelo envia a pergunta para o modelo de IA com o contexto dos dados armazenados, e retorna a resposta gerada pelo modelo.
 
-Como Executar o Projeto
+## Como Executar o Projeto
 Passo 1: Inicializar o Banco de Dados
 Ao rodar o servidor Flask pela primeira vez, o banco de dados SQLite será automaticamente criado, e as tabelas necessárias serão geradas.
 
 Passo 2: Iniciar o Servidor Flask
 No diretório do projeto, execute:
 
-bash
+```bash
 Copiar código
 python app.py
+```
 O servidor Flask será iniciado e estará disponível em http://localhost:5000.
 
 Passo 3: Enviar Perguntas para a API
@@ -93,24 +94,24 @@ A resposta será uma JSON contendo a resposta gerada pelo sistema.
 Passo 4: Testar Localmente
 Você pode testar a API diretamente usando ferramentas como o Postman ou cURL para enviar requisições POST.
 
-Exemplo de requisição com cURL:
+## Exemplo de requisição com cURL:
 
 ```bash
 Copiar código
 curl -X POST http://localhost:5000/responder -H "Content-Type: application/json" -d '{"pergunta": "Qual é a capital da França?"}'
 ```
 
-Estrutura do Banco de Dados
+## Estrutura do Banco de Dados
 A aplicação utiliza uma tabela no banco de dados SQLite para armazenar perguntas e respostas. A tabela é definida pela classe PerguntaResposta no código.
 
-A tabela contém os seguintes campos:
+## A tabela contém os seguintes campos:
 
 id: Chave primária.
 pergunta: A pergunta feita pelo usuário.
 resposta: A resposta gerada pelo sistema.
 
-Licença
+## Licença
 Este projeto está licenciado sob a Licença MIT.
 
-Contribuições
+## Contribuições
 Sinta-se à vontade para contribuir com o projeto. Para isso, basta fazer um fork, criar uma branch com suas modificações e abrir um pull request.
