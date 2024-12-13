@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 # **Tutor AI App**
 
-**Tutor AI App** é uma aplicação web que utiliza a arquitetura de um modelo de IA para responder a perguntas enviadas via API. A aplicação é construída com **Flask** para fornecer uma interface de API e **SQLAlchemy** para interação com um banco de dados SQLite. O sistema responde a perguntas com base nos dados armazenados no banco de dados e interage com um modelo de IA para gerar respostas.
+**Tutor AI App** é uma aplicação destinada a responder a perguntas enviadas via API para o código principal, permitindo interação com a plataforma. A aplicação é construída com Flask para fornecer a interface da API e SQLAlchemy para interagir com um banco de dados SQLite, o qual armazena respostas previamente formuladas pelo modelo, garantindo maior agilidade nas respostas a perguntas que já foram respondidas em algum momento anterior à solicitação.
 
 ## **Estrutura do Projeto**
 
