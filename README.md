@@ -111,5 +111,12 @@ resposta: A resposta gerada pelo sistema.
 ## Licença
 Este projeto está licenciado sob a Licença MIT.
 
+## Participantes
+O projeto Tutor AI contou com a contribuição das seguintes pessoas:
+
+[Gustavo Gazi](linkedin.com/in/gustavogazi)
+[Isabelle Cunha](linkedin.com/in/cunha-isabelle) 
+[João Paulo](linkedin.com/in/joaogarridob)
+
 ## Contribuições
 Sinta-se à vontade para contribuir com o projeto. Para isso, basta fazer um fork, criar uma branch com suas modificações e abrir um pull request.
