@@ -86,7 +86,7 @@ A requisição deve ser enviada com o seguinte corpo JSON:
 {
   "pergunta": "Sua pergunta aqui"
 }
-# A resposta será uma JSON contendo a resposta gerada pelo sistema.
+// A resposta será uma JSON contendo a resposta gerada pelo sistema.
 ```
 
 Passo 4: Testar Localmente
