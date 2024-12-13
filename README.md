@@ -114,11 +114,14 @@ Este projeto está licenciado sob a Licença MIT.
 ## Participantes
 O projeto Tutor AI contou com a contribuição das seguintes pessoas:
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustavogazi) ## Gustavo Gazi
+## Gustavo Gazi 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustavogazi)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cunha-isabelle/) ## Isabelle Cunha
+## Isabelle Cunha
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cunha-isabelle/)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joaogarridob) ## João Paulo
+## João Paulo
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joaogarridob)
 
 ## Contribuições
 Sinta-se à vontade para contribuir com o projeto. Para isso, basta fazer um fork, criar uma branch com suas modificações e abrir um pull request.
