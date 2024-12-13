@@ -114,7 +114,7 @@ Este projeto está licenciado sob a Licença MIT.
 ## Participantes
 O projeto Tutor AI contou com a contribuição das seguintes pessoas:
 
-[!](https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Linkedin-web-vt.png/640px-Linkedin-web-vt.png)
+[![LinkedIn](https://upload.wikimedia.org/wikipedia/commons/4/47/LinkedIn_Logo_2023.png)](https://www.linkedin.com/in/seu-nome)
 
 [Gustavo Gazi](https://www.linkedin.com/in/gustavogazi)
 [!https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Linkedin-web-vt.png/640px-Linkedin-web-vt.png]([https://upload.wikimedia.org/wikipedia/commons/4/47/LinkedIn_Logo_2023.png](https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Linkedin-web-vt.png/640px-Linkedin-web-vt.png))](https://www.linkedin.com)
