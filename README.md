@@ -1,6 +1,6 @@
 # **Tutor AI - Documentação**
 
-**Tutor AI** é um sistema de inteligência artificial que permite ao usuário interagir com o modelo por meio de perguntas. O sistema consulta dados armazenados em um banco de dados, envia essas informações para um modelo de IA para obter respostas e retorna respostas personalizadas, utilizando dados do banco e o modelo OpenAI. O sistema também é implementado com uma interface web via Flask, permitindo comunicação por API.
+**Tutor AI** é um sistema de inteligência artificial que permite ao usuário interagir simultaneamente com o modelo IA e a plataforma (seja ela institucional, empresarial ou educacional) por meio de perguntas e solicitações, como, por exemplo: "Crie 5 exercícios referentes ao 1º módulo". O sistema consulta dados armazenados em um banco de sua escolha, envia essas informações para o modelo de processamento neural e retorna respostas personalizadas, utilizando os dados do banco sem interferências externas (informações da rede mundial que não são referentes aos seus dados, mas que podem ser utilizadas caso o usuário deseje, ou até mesmo ser 100% ignoradas, permitindo que o modelo se baseie estritamente nos dados fornecidos localmente). Além disso, é utilizado um túnel para a comunicação entre dispositivos conectados em outras redes. O sistema também é implementado com uma interface web via Flask, permitindo comunicação por API e, consequentemente, com o aplicativo.
 
 ## **Estrutura do Projeto**
 
