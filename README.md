@@ -114,9 +114,12 @@ Este projeto está licenciado sob a Licença MIT.
 ## Participantes
 O projeto Tutor AI contou com a contribuição das seguintes pessoas:
 
-[Gustavo Gazi](linkedin.com/in/gustavogazi)
-[Isabelle Cunha](linkedin.com/in/cunha-isabelle) 
-[João Paulo](linkedin.com/in/joaogarridob)
+[![LinkedIn](https://upload.wikimedia.org/wikipedia/commons/4/47/LinkedIn_Logo_2023.png)](https://www.linkedin.com)
+[Gustavo Gazi](https://www.linkedin.com/in/gustavogazi)
+[![LinkedIn](https://upload.wikimedia.org/wikipedia/commons/4/47/LinkedIn_Logo_2023.png)](https://www.linkedin.com)
+[Isabelle Cunha](https://www.linkedin.com/in/cunha-isabelle/)
+[![LinkedIn](https://upload.wikimedia.org/wikipedia/commons/4/47/LinkedIn_Logo_2023.png)](https://www.linkedin.com)
+[João Paulo](https://www.linkedin.com/in/joaogarridob)
 
 ## Contribuições
 Sinta-se à vontade para contribuir com o projeto. Para isso, basta fazer um fork, criar uma branch com suas modificações e abrir um pull request.
