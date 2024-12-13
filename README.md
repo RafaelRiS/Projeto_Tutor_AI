@@ -32,7 +32,7 @@ Certifique-se de que você tem o Python 3 instalado. Em seguida, crie um ambient
 
 ```bash
 python3 -m venv venv
-source venv/bin/activate  # Para sistemas Unix
+source venv/bin/activate  # Para sistemas Linux
 venv\Scripts\activate     # Para sistemas Windows
 pip install -r requirements.txt
 ```
