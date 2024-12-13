@@ -114,8 +114,7 @@ Este projeto está licenciado sob a Licença MIT.
 ## Participantes
 O projeto Tutor AI contou com a contribuição das seguintes pessoas:
 
-## Gustavo Gazi 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustavogazi)
+## Gustavo Gazi [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustavogazi)
 
 ## Isabelle Cunha
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cunha-isabelle/)
